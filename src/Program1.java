@@ -14,13 +14,17 @@ public class Program1{
     food.add("hamburger");
     food.add("hotdog");
 
-    food .set ( 2, "sushi");
+    food .set( 0, "sushi");
+    food.remove(2);
+    food.clear();
 
-        for (int i= 0 ; i<food.size(); i++)
+        for (int i= 0 ; i < food.size(); i++)
             //normally for, arrays we use dot length parameter
     //here for the arraylist i.e food size() parameter will be used
         {
             System.out.println("\n"+ food.get(i));
+
+            System.out.println(food.get(i));
          }
 
     }
