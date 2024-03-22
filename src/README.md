@@ -1,1 +1,1 @@
-THese are the examples for the ArrayList 
+These are the examples for the ArrayList 
